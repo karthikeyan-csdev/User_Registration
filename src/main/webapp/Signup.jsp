@@ -9,9 +9,9 @@
 <body>
     <div class="container">
         <h2>Sign Up</h2>
-        <form action="Signup" method="post">
+        <form action="signup" method="post">
             <div class="input-group">
-                <label for="username">Username</label>
+                <label for="username">UserName</label>
                 <input type="text" id="username" name="username" required>
             </div>
             <div class="input-group">
@@ -24,7 +24,9 @@
             </div>
             <button type="submit" class="btn">Sign Up</button>
         </form>
-        <p>Already have an account? <a href="Login.html">Login</a></p>
+        <p>Already have an account? <a href="Login.jsp">Login</a></p>
     </div>
 </body>
 </html>
+
+

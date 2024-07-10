@@ -9,10 +9,10 @@
 <body>
     <div class="container">
         <h2>Login</h2>
-        <form action="Login" method="post">
+        <form action="login" method="post">
             <div class="input-group">
-                <label for="username">Username</label>
-                <input type="text" id="username" name="username" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
             </div>
             <div class="input-group">
                 <label for="password">Password</label>
@@ -20,7 +20,7 @@
             </div>
             <button type="submit" class="btn">Login</button>
         </form>
-        <p>Don't have an account? <a href="Signup.html">Sign up</a></p>
+        <p>Don't have an account? <a href="Signup.jsp">Sign up</a></p>
     </div>
 </body>
 </html>
